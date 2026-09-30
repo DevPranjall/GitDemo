@@ -1,5 +1,7 @@
-public class VariablesDemo {
-    public static void main(String[] args) {
+public class VariablesDemo
+ {
+    public static void main(String[] args) 
+    {
 
         String name = "Pranjal";
         int age = 21;
@@ -12,5 +14,6 @@ public class VariablesDemo {
         System.out.println("Percentage: " + percentage);
         System.out.println("Grade: " + grade);
         System.out.println("Student: " + isStudent);
+        
     }
 }
