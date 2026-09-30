@@ -4,3 +4,14 @@ public class HelloWorld {
         System.out.println("My first Java program on GitHub.");
     }
 }
+
+/*Create/change code
+       ↓
+git status
+       ↓
+git add .
+       ↓
+git commit -m "What I changed"
+       ↓
+git push
+*/
