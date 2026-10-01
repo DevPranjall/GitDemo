@@ -1,0 +1,69 @@
+import java.util.Scanner;
+
+public class StudentResultAnalyzer {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("===== STUDENT RESULT ANALYZER =====");
+
+        System.out.print("Enter Student Name: ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter Java marks: ");
+        int java = sc.nextInt();
+
+        System.out.print("Enter Database marks: ");
+        int database = sc.nextInt();
+
+        System.out.print("Enter Web Technology marks: ");
+        int web = sc.nextInt();
+
+        System.out.print("Enter Python marks: ");
+        int python = sc.nextInt();
+
+        System.out.print("Enter Communication marks: ");
+        int communication = sc.nextInt();
+
+        int total = java + database + web + python + communication;
+        double percentage = total / 5.0;
+
+        int highest = Math.max(java,
+                Math.max(database,
+                Math.max(web,
+                Math.max(python, communication))));
+
+        boolean pass = java >= 40 &&
+                       database >= 40 &&
+                       web >= 40 &&
+                       python >= 40 &&
+                       communication >= 40;
+
+        String grade;
+
+        if (!pass) {
+            grade = "F";
+        } else if (percentage >= 90) {
+            grade = "A+";
+        } else if (percentage >= 80) {
+            grade = "A";
+        } else if (percentage >= 70) {
+            grade = "B";
+        } else if (percentage >= 60) {
+            grade = "C";
+        } else {
+            grade = "D";
+        }
+
+        System.out.println("\n===== RESULT =====");
+        System.out.println("Student Name : " + name);
+        System.out.println("Total Marks  : " + total + "/500");
+        System.out.println("Percentage   : " + percentage + "%");
+        System.out.println("Highest Mark: " + highest);
+        System.out.println("Grade        : " + grade);
+        System.out.println("Result       : " + (pass ? "PASS" : "FAIL"));
+
+        sc.close();
+    }
+}
