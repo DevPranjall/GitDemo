@@ -175,7 +175,7 @@ This project helped me practice:
 4. Exit
 ```
 
-### Example
+### Example Result
 
 ```text
 Initial Balance: ₹10000
