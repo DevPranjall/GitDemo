@@ -21,7 +21,7 @@ A simple Java program that demonstrates different data types:
 I am practicing Java programming step by step and uploading my learning progress to GitHub.
 
 
-# Next Project 1 : Student Result Analyzer
+# Project 1 : Student Result Analyzer
 
 
 # 🎓 Student Result Analyzer
@@ -108,6 +108,7 @@ Student Name : Pranjal
 Tota
 ```
 
+# Project 2 : ATM Simulation System
 
 # 🏧 ATM Simulation System
 
@@ -196,7 +197,7 @@ Possible future improvements include:
 * File or database storage
 * GUI-based ATM interface
 
-# Next Project 2 : Student Marks Analyzer
+# Project 3 : Student Marks Analyzer
 
 # 🧑‍🎓 Student Marks Analyzer
 
