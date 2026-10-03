@@ -21,6 +21,9 @@ A simple Java program that demonstrates different data types:
 I am practicing Java programming step by step and uploading my learning progress to GitHub.
 
 
+# Next Project 1 : Student Result Analyzer
+
+
 # 🎓 Student Result Analyzer
 
 A beginner-friendly Java console application that analyzes a student's academic result.
@@ -175,20 +178,6 @@ This project helped me practice:
 4. Exit
 ```
 
-### Example Result
-
-```text
-Initial Balance: ₹10000
-
-Deposit: ₹5000
-
-Updated Balance: ₹15000
-
-Withdraw: ₹3000
-
-Remaining Balance: ₹12000
-```
-
 ## 📚 What I Learned
 
 Through this project, I learned how to combine methods, loops, conditions, user input, and validation to create a menu-driven Java application.
@@ -207,6 +196,103 @@ Possible future improvements include:
 * File or database storage
 * GUI-based ATM interface
 
+# Next Project 2 : Student Marks Analyzer
+
+# 🧑‍🎓 Student Marks Analyzer
+
+A Java console application that analyzes the marks of a student using arrays.
+
+## 📌 Project Overview
+
+The **Student Marks Analyzer** is a simple Java application that accepts marks for multiple subjects and performs basic analysis on the entered data.
+
+The program calculates:
+
+* Total marks
+* Average marks
+* Highest marks
+* Lowest marks
+
+This project was created as part of my Java learning and GitHub practice journey.
+
+## 🎯 Objective
+
+The main objective of this project is to understand how arrays can be used to store and process multiple values efficiently.
+
+## ✨ Features
+
+* Accepts marks for multiple subjects
+* Stores marks using an array
+* Calculates total marks
+* Calculates average marks
+* Finds highest marks
+* Finds lowest marks
+* Uses loops to process array elements
+
+## 🛠️ Technologies Used
+
+* Java
+* VS Code
+* Git
+* GitHub
+
+## 🧠 Concepts Practiced
+
+This project helped me practice:
+
+* Arrays
+* Array declaration
+* Array initialization
+* Array indexing
+* `array.length`
+* `for` loop
+* Enhanced `for` loop
+* User input using `Scanner`
+* Conditional statements
+* Arithmetic operations
+* Type casting
+
+## ⚙️ How It Works
+
+1. The program creates an integer array to store marks.
+2. The user enters marks for five subjects.
+3. A `for` loop stores the marks inside the array.
+4. The program traverses the array to calculate the total.
+5. The highest and lowest marks are identified.
+6. The average is calculated using the total marks and number of subjects.
+7. The final analysis is displayed in the console.
+
+## 📊 Example
+
+```text
+Marks:
+85 72 91 68 88
+
+Total   : 404
+Average : 80.8
+Highest : 91
+Lowest  : 68
+```
+
+## 📚 What I Learned
+
+Through this project, I learned how arrays allow multiple values of the same data type to be stored under a single variable.
+
+I also learned how to traverse an array using both a traditional `for` loop and an enhanced `for` loop.
+
+## 🚀 Future Improvements
+
+I plan to improve this project by adding:
+
+* Student names
+* Multiple students
+* Subject names
+* Grade calculation
+* Ranking students
+* Searching for a particular student's result
+* Sorting marks
+* Using ArrayList instead of arrays
+
 ## 👨‍💻 Author
 
 **Pranjal Sonawane**
@@ -216,5 +302,8 @@ BE Information Technology Student
 Learning Java Full Stack, AI, and Software Development step by step.
 
 ---
+## My Learning Journey
+
+Currently learning Java, Git and GitHub through practical projects.
 
 ⭐ Part of my continuous Java learning journey.
