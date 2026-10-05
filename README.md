@@ -308,3 +308,84 @@ Learning Java Full Stack, AI, and Software Development step by step.
 Currently learning Java, Git and GitHub through practical projects.
 
 ⭐ Part of my continuous Java learning journey.
+
+
+# Project 3 : Password Strength Checker
+
+## 🔐 Password Strength Checker
+
+A Java console-based application that analyzes the basic strength of a password.
+
+### 📌 Project Overview
+
+The Password Strength Checker evaluates a password based on multiple criteria such as length, uppercase letters, lowercase letters, numbers, and special characters.
+
+The program calculates a simple strength score and classifies the password as **Weak, Medium, or Strong**.
+
+### 🎯 Objective
+
+The objective of this project is to practice Java String handling and character-based validation while building a small real-world application.
+
+### ✨ Features
+
+* Checks password length
+* Detects uppercase characters
+* Detects lowercase characters
+* Detects digits
+* Detects special characters
+* Calculates a simple strength score
+* Displays password strength
+
+### 🧠 Concepts Practiced
+
+* String
+* `length()`
+* `charAt()`
+* `Character.isUpperCase()`
+* `Character.isLowerCase()`
+* `Character.isDigit()`
+* `for` loop
+* `if-else`
+* Boolean variables
+* `Scanner`
+* Basic validation logic
+
+### ⚙️ How It Works
+
+1. The user enters a password.
+2. The program checks each character.
+3. It identifies uppercase letters, lowercase letters, digits, and special characters.
+4. The password length is checked.
+5. A score is calculated based on the conditions satisfied.
+6. The password is classified as Weak, Medium, or Strong.
+
+### 💻 Example
+
+```text
+Enter your password: Pranjal@123
+
+===== PASSWORD ANALYSIS =====
+
+Length ≥ 8       : true
+Uppercase        : true
+Lowercase        : true
+Digit            : true
+Special Character: true
+
+Strength:
+Strong Password
+```
+
+### 📚 What I Learned
+
+Through this project, I learned how Strings and characters can be analyzed programmatically.
+
+I also learned how multiple boolean conditions can be combined to build a simple validation system.
+
+### 🚀 Future Improvements
+
+* Add common-password detection
+* Add password suggestions
+* Add a graphical user interface
+* Add more detailed strength rules
+* Add secure password handling
