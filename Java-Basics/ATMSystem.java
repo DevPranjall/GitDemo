@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
-public class ATMSystem {
+public class ATMSystem
+
+{
 
     static double balance = 10000;
 
