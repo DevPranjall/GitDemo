@@ -294,23 +294,8 @@ I plan to improve this project by adding:
 * Sorting marks
 * Using ArrayList instead of arrays
 
-## 👨‍💻 Author
 
-**Pranjal Sonawane**
-
-BE Information Technology Student
-
-Learning Java Full Stack, AI, and Software Development step by step.
-
----
-## My Learning Journey
-
-Currently learning Java, Git and GitHub through practical projects.
-
-⭐ Part of my continuous Java learning journey.
-
-
-# Project 3 : Password Strength Checker
+# Project 4 : Password Strength Checker
 
 ## 🔐 Password Strength Checker
 
@@ -389,3 +374,119 @@ I also learned how multiple boolean conditions can be combined to build a simple
 * Add a graphical user interface
 * Add more detailed strength rules
 * Add secure password handling
+
+
+## 🏦 Project 5 : Bank Account Management System
+
+A Java-based mini project demonstrating the concept of **Encapsulation** using a simple bank account management system.
+
+### 📌 Project Overview
+
+The Bank Account Management System simulates basic banking operations such as displaying account details, depositing money, and withdrawing money.
+
+The project protects sensitive account data using private variables and provides controlled access through public methods.
+
+### 🎯 Objective
+
+The main objective of this project is to understand **Encapsulation**, one of the fundamental principles of Object-Oriented Programming.
+
+### ✨ Features
+
+* Create a bank account
+* Store account holder details
+* Display account information
+* Deposit money
+* Withdraw money
+* Check available balance
+* Prevent invalid transactions
+* Prevent withdrawal when balance is insufficient
+
+### 🛠️ Technologies Used
+
+* Java
+* Object-Oriented Programming
+* VS Code
+* Git
+* GitHub
+
+### 🧠 Concepts Practiced
+
+* Classes and Objects
+* Constructors
+* Private variables
+* Public methods
+* Getters
+* Encapsulation
+* Data hiding
+* Method calls
+* Conditional statements
+
+### ⚙️ How It Works
+
+1. A `BankAccount` object is created.
+2. Account information is stored using private variables.
+3. The account balance cannot be accessed directly from outside the class.
+4. Deposit and withdrawal operations are performed through public methods.
+5. The methods validate transactions before changing the balance.
+6. The final account balance is displayed.
+
+### 🔐 Encapsulation Example
+
+```java
+private double balance;
+```
+
+The balance is hidden from direct access.
+
+Controlled operations are provided through:
+
+```java
+deposit()
+withdraw()
+getBalance()
+```
+
+### 💻 Example Output
+
+```text
+===== ACCOUNT DETAILS =====
+Account Holder : Pranjal
+Account Number : 1234567890
+Balance        : ₹10000.0
+
+--- Transactions ---
+₹5000.0 deposited successfully.
+₹2500.0 withdrawn successfully.
+Insufficient balance.
+
+Final Balance: ₹12500.0
+```
+
+### 📚 What I Learned
+
+Through this project, I learned how encapsulation helps protect data inside a class and provides controlled access through methods.
+
+I also understood the practical difference between directly modifying a variable and using methods to safely modify its value.
+
+### 🚀 Future Improvements
+
+* PIN authentication
+* Multiple bank accounts
+* Transaction history
+* Transfer money between accounts
+* Account type support
+* Database connectivity
+* Login system
+* GUI interface
+
+### 👨‍💻 Author
+
+**Pranjal Sonawane**
+
+BE Information Technology Student
+
+Learning Java Full Stack, AI, and Software Development step by step.
+
+---
+
+⭐ Part of my continuous Java and GitHub learning journey.
